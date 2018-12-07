@@ -14,11 +14,11 @@
             for(let i = 0; i < Numerals.length; i++ ) {
                 Numerals[i].textContent = s[i];
             }
-           };
+           }
 
         restart[0].addEventListener("click", function(){
               perem();
-              restart[0].textContent = "Заново"
+              restart[0].textContent = "Заново";
           });
 
           for(let i = 0; i < 25; i++ ) {

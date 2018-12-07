@@ -1,0 +1,20 @@
+.block1{
+    background: #000;
+    height: 100vh;
+}
+.block2{
+    background-color: #aaa;
+    height: 100vh;
+}
+.block3{
+    background-color: #eee;
+    height: 800px;
+}
+.vue{
+    background-color: red;
+    z-index: 99;
+    position: fixed;
+margin-top: 20px;
+height: 50px;
+opacity: 0.5;
+}
