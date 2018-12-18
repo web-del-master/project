@@ -27,7 +27,11 @@
                       if(+nume === m){
                           console.log(m);
                           m++;
+                          for(let i = 0; i < 25; i++ ){
+                            Numerals[i].style.cssText = "background: #fff;";
+                          }                          
                       }else{
+                          Numerals[i].style.cssText = "background: #000;";
                           console.log("ошибка");
                       }                     
                 });
